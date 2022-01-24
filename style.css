@@ -1,0 +1,60 @@
+body{
+    box-sizing:border-box;
+       margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+}
+.container{  
+    background-color:rgb(10, 10, 0);
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-gap:5px;
+    justify-content:center;
+    align-content: center;
+}
+.container > div{
+    background-color:yellow;
+}
+.rosa:hover{
+    background-color:hotpink;
+    filter: blur(5px);
+}
+.roxo:hover{
+    filter: blur(5px);
+    background-color:blueviolet;
+}
+.cinza:hover{
+  filter: blur(5px);
+  background-color:gray;
+}
+
+.verde:hover{
+  filter: blur(5px);
+  background-color:rgb(12, 158, 12);
+}
+.turquesa:hover{
+  background-color:turquoise;
+  filter: blur(5px);
+}
+.laranja:hover{
+  background-color:orange;
+  filter: blur(5px);
+}
+.branco:hover{
+  filter: blur(5px);
+  background-color:white;
+}
+.palidoroxo:hover{
+  filter: blur(5px);
+  background-color:rgb(196, 123, 230);
+}
+.palidorosa:hover{
+  filter: blur(5px);
+  background-color:lightpink;
+}
+
+
